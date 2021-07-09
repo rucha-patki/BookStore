@@ -6,8 +6,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Decription
 This codebase was created to demonstrate a fully fledged application built with Angular that interacts with an actual backend server including CRUD operations and is complimented with State Management by using features of angular like NGRX, RXJS.
 
+## Server Link
+
+https://mockapi.io/projects/60cafc1f21337e0017e43752
+
 ## How It Works
-Book store management system is an application in Angular, which provides you features to Add Book, Edit Book, and Delete Book.
+
+Book store management system is an application in Angular, which provides you features to Add Book, Edit Book, and Delete Book with the help of CRUD Operations.
 
 ## State management system of Angular
 
@@ -16,14 +21,6 @@ Book store management system is an application in Angular, which provides you fe
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Mock Api used
-
-https://mockapi.io/projects/60cafc1f21337e0017e43752
 
 ## Build
 
