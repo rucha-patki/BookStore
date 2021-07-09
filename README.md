@@ -18,6 +18,20 @@ Book store management system is an application in Angular, which provides you fe
 
 ![image](https://user-images.githubusercontent.com/83335769/125053448-bb903700-e0c2-11eb-90c3-1ba830bcad4b.png)
 
+## Functionality Overview
+
+1.	There are three components namely: AppComponent, EditComponent and NewBookComponent
+
+2.	Application consists of one service: BookService which consists of all the method required to communicate with the web server.
+
+3.	There is one folder called as Store which consists of all the Actions, Reducer and Effects used in the application. 
+
+4.	AppComponent displays all the books present on the Web Server. Books are fetched via RestApi call ‘GET’.
+
+5.	EditComponent will get all the details of the book which you wish to edit and the book is updated via RestApi ‘PUT’ call.
+
+6.	NewBookComponent will provide you a UI which will ask for book details you want to add to store.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
