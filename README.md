@@ -22,6 +22,6 @@ Book store management system is an application in Angular, which provides you fe
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Referance document
+## Reference document
 
 [Book Store.docx](https://github.com/rucha-patki/BookStore/files/6790283/Book.Store.docx)
