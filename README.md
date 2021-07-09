@@ -1,5 +1,5 @@
 # BookStore
-![1](https://user-images.githubusercontent.com/83335769/125054798-37d74a00-e0c4-11eb-84d0-7d2276fe8880.png)
+![4](https://user-images.githubusercontent.com/83335769/125069250-20a05880-e0d4-11eb-9b19-b5a7e8e54039.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
