@@ -2,8 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
-## Description
-[Book Store.docx](https://github.com/rucha-patki/BookStore/files/6790283/Book.Store.docx)
+## Decription
+
+This application is complimented with State Management by using features of angular like NGRX, RXJS, API calls
 
 ## Development server
 
@@ -13,10 +14,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Mock Api
+## Mock Api used
+
 https://mockapi.io/projects/60cafc1f21337e0017e43752
 
-## State management
+## State management system of Angular
 
 ![image](https://user-images.githubusercontent.com/83335769/125053448-bb903700-e0c2-11eb-90c3-1ba830bcad4b.png)
 
@@ -33,9 +35,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Snapshots of the Application
+
 ![1](https://user-images.githubusercontent.com/83335769/125054798-37d74a00-e0c4-11eb-84d0-7d2276fe8880.png)
-![2](https://user-images.githubusercontent.com/83335769/125054982-648b6180-e0c4-11eb-9f0f-66ef7f1b0946.png)
-![3](https://user-images.githubusercontent.com/83335769/125055081-7ff66c80-e0c4-11eb-83cf-ce55da13b70f.png)
+
+## Referance document
+
+[Book Store.docx](https://github.com/rucha-patki/BookStore/files/6790283/Book.Store.docx)
 
 ## Further help
 
