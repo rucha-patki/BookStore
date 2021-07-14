@@ -1,0 +1,5 @@
+<div class="a">Parent Component:<br>
+Available amount: {{amount}} <br>
+<button mat-raised-button (click)="deposit()">Deposit 100</button>
+<app-child [(amount)]="amount"></app-child>
+</div>
