@@ -4,14 +4,14 @@
     <label>
       Name:
     </label>
-    <input matInput formControlName="name">
+    <input matInput formControlName="name" [appOnlyLetter]="true">
   </div><br>
 
   <div>
     <label for="author">
       Author
     </label>
-    <input matInput formControlName="author">
+    <input matInput formControlName="author" [appOnlyLetter]="true">
   </div><br>
 
   <div>
