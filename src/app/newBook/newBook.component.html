@@ -2,7 +2,7 @@
 
   <div>
     <label>
-      Name:
+      Name :
     </label>
     <input matInput formControlName="name" [appOnlyLetter]="true">
   </div><br>
@@ -18,7 +18,7 @@
     <label for="price">
       Price
     </label>
-    <input matInput formControlName="price">
+    <input matInput formControlName="price" [appOnlyNumber]="true">
   </div><br>
 
   <div>
