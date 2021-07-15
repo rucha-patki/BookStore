@@ -23,6 +23,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { GetBooksComponent } from './get-books/get-books.component';
+import { OnlyLetterDirective } from './onlyLetter.directive';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { GetBooksComponent } from './get-books/get-books.component';
     ParentComponent,
     ChildComponent,
     GetBooksComponent,
+    OnlyLetterDirective
   ],
   imports: [
     BrowserModule,
