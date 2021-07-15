@@ -1,32 +1,32 @@
-<div class="a">
-  <form [formGroup]="bookForm">
+<form class="example-form" [formGroup]="bookForm">
 
   <div>
     <label>
       Name:
     </label>
-    <input matInput type="text" id="name" formControlName="name">
+    <input matInput formControlName="name">
   </div><br>
 
   <div>
     <label for="author">
       Author
     </label>
-    <input matInput type="text" id="author" formControlName="author">
+    <input matInput formControlName="author">
   </div><br>
 
   <div>
     <label for="price">
       Price
     </label>
-    <input matInput type="text" id="price" formControlName="price">
+    <input matInput formControlName="price">
   </div><br>
 
-  <button class="button" type="submit" (click)="onPost()">Post</button>
-  <button class="button" type="submit" (click)="Cancel()">Cancel</button>
+  <div>
+  <button mat-raised-button (click)="onPost()">Post</button>
+  <button mat-raised-button (click)="Cancel()">Cancel</button>
+  </div>
 </form>
 
-</div>
 
 <!--
   <div class="a">
