@@ -25,6 +25,7 @@ import { ChildComponent } from './child/child.component';
 import { GetBooksComponent } from './get-books/get-books.component';
 import { OnlyLetterDirective } from './onlyLetter.directive';
 import { OnlyNumberDirective } from './onlyNumber.directive';
+import {NoSpaceDirective } from './noSpace.directive';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { OnlyNumberDirective } from './onlyNumber.directive';
     ChildComponent,
     GetBooksComponent,
     OnlyLetterDirective,
-    OnlyNumberDirective
+    OnlyNumberDirective,
+    NoSpaceDirective
   ],
   imports: [
     BrowserModule,

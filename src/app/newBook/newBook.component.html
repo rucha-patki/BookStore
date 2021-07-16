@@ -4,58 +4,28 @@
     <label>
       Name :
     </label>
-    <input matInput formControlName="name" [appOnlyLetter]="true">
+    <input matInput formControlName="name" [ngClass]="{'has-error': bookForm.get('name')?.invalid && bookForm.get('name')?.touched}" [appOnlyLetter]="true"><br>
+    <span *ngIf="bookForm.get('name')?.invalid && bookForm.get('name')?.touched ">Name is required</span>
   </div><br>
 
   <div>
     <label for="author">
       Author
     </label>
-    <input matInput formControlName="author" [appOnlyLetter]="true">
+    <input matInput formControlName="author" [ngClass]="{'has-error': bookForm.get('author')?.invalid && bookForm.get('author')?.touched}" [appOnlyLetter]="true"><br>
+    <span *ngIf="bookForm.get('author')?.invalid && bookForm.get('author')?.touched ">Author is required</span>
   </div><br>
 
   <div>
     <label for="price">
       Price
     </label>
-    <input matInput formControlName="price" [appOnlyNumber]="true">
+    <input matInput formControlName="price" [ngClass]="{'has-error': bookForm.get('price')?.invalid && bookForm.get('price')?.touched}" [appOnlyNumber]="true"><br>
+    <span *ngIf="bookForm.get('price')?.invalid && bookForm.get('price')?.touched ">Price is required</span>
   </div><br>
 
   <div>
-  <button mat-raised-button (click)="onPost()">Post</button>
+  <button mat-raised-button [disabled]="bookForm.invalid" (click)="onPost()">Post</button>
   <button mat-raised-button (click)="Cancel()">Cancel</button>
   </div>
 </form>
-
-
-<!--
-  <div class="a">
-  <form [formGroup]="bookForm">
-
-  <div>
-    <label>
-      Name:
-    </label>
-    <input matInput type="text" id="name" formControlName="name">
-  </div><br>
-
-  <div>
-    <label for="author">
-      Author
-    </label>
-    <input matInput type="text" id="author" formControlName="author">
-  </div><br>
-
-  <div>
-    <label for="price">
-      Price
-    </label>
-    <input matInput type="text" id="price" formControlName="price">
-  </div><br>
-
-  <button class="button" type="submit" (click)="onPost()">Post</button>
-  <button class="button" type="submit" (click)="Cancel()">Cancel</button>
-</form>
-
-</div>
--->

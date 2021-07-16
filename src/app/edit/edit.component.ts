@@ -19,7 +19,7 @@ export class EditComponent implements OnInit{
   
   bookForm = this.formBuilder.group({
     id: new FormControl({value: '', disabled: true}),
-    name: '',
+    name: ['', Validators.required],
     author: new FormControl({value: '', disabled: true}),
     price: new FormControl({value: '', disabled: true}),
   });

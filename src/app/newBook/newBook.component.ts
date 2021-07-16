@@ -1,12 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {BookService} from '../books.services';
 import {Books} from '../Books';
-import { Router } from '@angular/router';
 import { appAction } from '../store/app.actions';
 import { Store } from '@ngrx/store';
-import { FormBuilder } from '@angular/forms';
-import { MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
-
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-newBook',
@@ -16,8 +13,7 @@ import { MatFormFieldModule, MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/mat
 export class NewBookComponent implements OnInit{
 
     constructor( private formBuilder: FormBuilder,
-        private store:Store<{ books: any }>,
-        private service:BookService){}
+        private store:Store<{ books: any }>){}
     
       books:Books[]=[];
 
@@ -29,9 +25,9 @@ export class NewBookComponent implements OnInit{
       }
 
       bookForm = this.formBuilder.group({
-        name: '',
-        author:'',
-        price:  ''
+        name: ['', Validators.required],
+        author:['', Validators.required],
+        price: ['', Validators.required],
       });
     
       ngOnInit() {}

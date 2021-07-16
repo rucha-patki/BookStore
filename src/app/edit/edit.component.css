@@ -6,3 +6,11 @@
     padding: 20px;
     width: 50%;
   }
+
+  .has-error {
+    border: 1px solid rgb(78, 78, 148)
+}
+
+span {
+  color:rgb(78, 78, 148)
+}
